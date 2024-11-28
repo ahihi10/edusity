@@ -1,0 +1,25 @@
+.video-player{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.9);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-player iframe{
+    width: 100%;
+    max-width: 900px;
+    height: 80%;
+    z-index: 100;
+    border: 2px solid #fff;
+    padding-top: 100px;
+
+}
+
+.video-player.hide{
+    display: none;
+}
