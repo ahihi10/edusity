@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <div className='hero container'>
         <div className="hero-text">
-            <h1>We Ensure better education for a better world</h1>
-            <p>Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education</p>
-            <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button>
+            <h1>Edusity chào đón bạn!</h1>
+            <p>Chương trình giảng dạy tiên tiến của chúng tôi được thiết kế để trang bị cho sinh viên kiến ​​thức, kỹ năng và kinh nghiệm cần thiết để thành công trong lĩnh vực giáo dục năng động.</p>
+            <button className='btn'>Tìm hiểu thêm <img src={dark_arrow} alt="" /></button>
         </div>
     </div>
   )

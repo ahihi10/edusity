@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import NavBar from './Components/Navbar/NavBar'
 import Hero from './Components/Hero/Hero'
 import Programs from './Components/Programs/Programs'
@@ -17,14 +18,14 @@ const App = () => {
       <NavBar/>
       <Hero/>
       <div className="container">
-        <Title subtitle='Our PROGRAM' title='What We Offer'/>
+        <Title subtitle='CHƯƠNG TRÌNH của chúng tôi' title='Những gì chúng tôi mang đến'/>
         <Programs/>
         <About setPlayState={setPlayState}/>
-        <Title subtitle='Gallery' title='Campus Photos'/>
+        <Title subtitle='' title='Không gian lớp học'/>
         <Campus/>
-        <Title subtitle='TESTIMONIALS' title='What Student Says'/>
+        <Title subtitle='' title='Sinh viên nói gì về chúng tôi'/>
         <Testimonials/>
-        <Title subtitle='Contact Us' title='Get in Touch'/>
+        <Title subtitle='Liên hệ' title=''/>
         <Contact/>
         <Footer/>
       </div>
@@ -34,3 +35,5 @@ const App = () => {
 }
 
 export default App
+
+
